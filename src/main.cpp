@@ -61,7 +61,7 @@ WebServer server(80);
 /*
  * Login page
  */
-const char *loginIndex =
+/*const char *loginIndex =
     "<form name='loginForm'>"
     "<table width='20%' bgcolor='A09F9F' align='center'>"
     "<tr>"
@@ -97,11 +97,11 @@ const char *loginIndex =
     "}"
     "else"
     "{"
-    " alert('Error Password or Username')/*displays error message*/"
+    " alert('Error Password or Username')//displays error message"
     "}"
     "}"
     "</script>";
-
+*/
 /*
  * Server Index Page
  */
