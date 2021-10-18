@@ -192,7 +192,7 @@ void setup(void)
   IPAddress IP = WiFi.softAPIP();
   Serial.print("url: http://");
   Serial.print(IP);
-  Serial.println("/ (user: admin, pswd: admin)");
+  //Serial.println("/ (user: admin, pswd: admin)");
 
   /*use mdns for host name resolution*/
   if (!MDNS.begin(host))
